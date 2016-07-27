@@ -21,5 +21,11 @@ QUnit.test("Extend shall have the ability to append new properties.", function(a
 QUnit.test("Extend shall be able to override previously existing properties.", function(assert){
   var expectedResults = {"x" : "x", "y" : "y"};
   extend(objectB, objectA);
-  assert.deepEqual(objectB, expectedResults, "Expected that objectB's x value will be objectA's x value.")
+  assert.deepEqual(objectB, expectedResults, "Expected that objectB's x value will be objectA's x value.");
+});
+
+QUnit.test("Extend should have the ability to append only attributes don't exists in the extended object.", function(assert){
+  var expectedResults = {"x" : "x", "y" : "y"};
+  safeExtend(objectA, objectB);
+  assert.deepEqual(objectA, expectedResults, "Expected that objectA has the properties that objectB has but objectA did not.");
 });
