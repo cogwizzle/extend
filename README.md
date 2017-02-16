@@ -11,7 +11,7 @@ var animal = {"name" : "spot"};
 var dog = {"bark" : function(){alert("woof");}, "dig" : function(){yard.destory();}};
 extend(dog, animal);
 ```
-The object dog would look like ```{"name" : "spot", "bark" : function(){...}, "dig" : function(){...}}```
+The object dog would look like ```{"name" : "spot", "bark" : function(){...}, "dig" : function(){...}, "super" : {...}}```
 
 * Example of overriding properties of a Javascript object.
 ```
