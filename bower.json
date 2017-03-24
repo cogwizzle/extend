@@ -19,6 +19,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "qunit": "^1.23.1"
+    "qunit": "^2.2.1",
+    "blanket": "^1.1.7"
   }
 }
