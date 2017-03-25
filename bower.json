@@ -20,6 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "qunit": "^2.2.1",
-    "blanket": "^1.1.7"
+    "blanket": "^1.1.7",
+    "requirejs": "https://github.com/requirejs/requirejs.git#0720795d9a4e1bb1b47befc8548b61afe6f72dfc"
   }
 }

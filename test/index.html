@@ -8,9 +8,10 @@
   <div id="qunit"></div>
   <div id="qunit-fixture"></div>
   <script src="../bower_components/qunit/qunit/qunit.js"></script>
-  <script src="../bower_components/blanket/dist/qunit/blanket.min.js"></script>
-  <script src="../src/extend.js" data-cover></script>
-  <script src="./extend_test.js"></script>
+  <script src="../bower_components/blanket/dist/qunit/blanket.min.js" data-cover-only="src/extend"></script>
+  <script src="../bower_components/requirejs/require.js"></script>
+  <script src="test/require_config.js" data-main="test/extend_suite.js"></script>
+  <script src="test/extend_suite.js"></script>
   <link rel="stylesheet" type="text/css" href="../bower_components/qunit/qunit/qunit.css" />
 </body>
 </html>
