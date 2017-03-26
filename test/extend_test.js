@@ -1,11 +1,13 @@
 /**
  * Test the extend microlibrary.
  */
-define(['src/extend'], (function(){
+define(function(require){
+    var extend = require('src/extend');
+    var QUnit = require('qunit');
+
     function test(){
       var objectA = {};
       var objectB = {};
-      console.log("extend: ", extend);
 
       QUnit.module("Extend", {
         beforeEach : function(){
@@ -30,4 +32,4 @@ define(['src/extend'], (function(){
     }
 
     return {"test" : test};
-})());
+});
