@@ -31,3 +31,8 @@ function safeExtend(extendedObject, extendingObject){
   }
       return extendedObject;
 }
+
+module.exports = {
+  extend,
+  safeExtend
+};

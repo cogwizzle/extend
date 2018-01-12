@@ -1,0 +1,26 @@
+{
+  "name": "extend",
+  "version": "1.0.0",
+  "description": "Javascript extend function used to easily allow for pseudo inheritance prior to ES6.",
+  "main": "src/extend.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfehrman/extend.git"
+  },
+  "author": "Joseph Fehrman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfehrman/extend/issues"
+  },
+  "homepage": "https://github.com/jfehrman/extend#readme"
+}
